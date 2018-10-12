@@ -1,0 +1,22 @@
+{
+  "name": "laura",
+  "version": "1.0.0",
+  "description": "Laura Boushnak Website",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass --watch scss/main.scss -o css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/admir23/Laura.git"
+  },
+  "author": "Admir Kurtovic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/admir23/Laura/issues"
+  },
+  "homepage": "https://github.com/admir23/Laura#readme",
+  "dependencies": {
+    "node-sass": "^4.9.3"
+  }
+}
