@@ -8,11 +8,17 @@
 }
 
 .right-side {
-    // margin: 50px 20px 50px 0px;
+    a {
+      text-decoration: none;   
+    }
+
+    a:hover {
+      color: color-grey-dark;
+      font-weight: 700;
+    }
 }
 
 ul {
-    list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -20,17 +26,27 @@ ul {
 }
 
 li {
-    float: left;
-    padding: 10px;
+    list-style-type: square;
+    padding-right: 15px;
+    
 }
 
 li a {
     display: block;
-    text-align: center;
-    padding: 16px;
+    text-align: left;
     text-decoration: none;
 }
 
 li a:hover {
-    background-color: #111111;
+    color: color-grey-dark;
+    font-weight: 700;
+    list-style-type: square;
+    
+}
+
+.social {
+    li{
+        float: left;
+        list-style-type: none;
+    }
 }
