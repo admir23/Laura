@@ -1,4 +1,6 @@
 
+@import 'grid';
+
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic);
 
 // fonts
@@ -57,23 +59,14 @@ a {
 }
 
 
-
-.columns {
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 100px;
-}
-
 .left-side {
     img {
-        width: 85%;
+        width: 95%;
         height: auto;
     }
 }
 
 .right-side {
-    margin-top: 20%;
     a {
       text-decoration: none;   
     }
@@ -116,3 +109,4 @@ li a:hover {
         list-style-type: none;
     }
 }
+
